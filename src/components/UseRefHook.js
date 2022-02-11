@@ -14,9 +14,9 @@ export default function UseRefHook() {
   }
   function getNumBox() {
     console.log("World...");
-    console.log(inputOne.current);
+    console.log(inputOne);
     inputTwo.current.style.width = "100%";
-    inputOne.current.style.width = "250px";
+    inputOne.current.style.background = "red";
   }
   return (
     <>

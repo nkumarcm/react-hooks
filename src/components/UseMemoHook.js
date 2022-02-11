@@ -17,7 +17,7 @@ export default function UseMemoHook() {
   const getRandomSumTwo = React.useMemo(() => {
     return counterTwo + Math.random();
   }, [counterTwo]);
-
+  
   return (
     <>
       <Header headerTitle="React Hooks - (useMemo)" />
